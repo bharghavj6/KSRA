@@ -93,3 +93,6 @@ font-size: 20px;
 /* .footer-info{
     background: #565b86;
 } */
+#about li{
+    text-align: initial;
+}
