@@ -121,14 +121,13 @@ font-size: 20px;
 }
 .about-img .img-fluid{
     width: auto !important;
-    height: 258px !important;
+    height: 100%;
 }
 .copyright{
     padding:10px 0;
 }
 .about-img{
-    /* width: auto;
-    height: 290px; */
+    width: 100%;
     border: 3px solid #ccc;
     background: #eee;
     margin: auto;
