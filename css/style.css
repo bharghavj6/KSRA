@@ -1,6 +1,9 @@
 body {
     background: #f1fbff!important;
 }
+.header-nav{
+    background: rgba(10,20,30,0.5);
+}
 @media (min-width:769px){
 .body-ns .header-nav{
 padding: 6px 0;
@@ -12,7 +15,7 @@ right: 0;
 transition: all 0.5s;
 z-index: 997;
 /* background: rgba(47,77,90,.85);    */
-background: radial-gradient(circle,rgb(100 41 96) 0%, rgb(30 58 92) 100%);
+background: radial-gradient(circle,rgb(100 41 96) 0%, rgb(30 58 92) 100%)!important;
 }
 }
 .body-ns .nav-content{
@@ -51,7 +54,7 @@ font-size: 20px;
 
 @media (max-width:768px){
      .header-nav{
-        background: radial-gradient(circle, rgb(172 45 101) 0%, rgba(3,46,98,1) 100%);
+        background: radial-gradient(circle, rgb(172 45 101) 0%, rgba(3,46,98,1) 100%)!important;
         }
 }
 .img-fluid{
