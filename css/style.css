@@ -196,5 +196,38 @@ font-size: 20px;
 }
 
 #team .socials a {
-    color: #7b3177;
+    /* color: #7b3177; */
+
+    display: inline-block;
+    background-color: #5c2b5f;
+    color:#fff;
+    width: 30px;
+    height: 30px;
+    line-height: 1;
+    padding:5px 0;
+    margin: 0 5px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    border-radius: 28%;
+    box-shadow: 0 5px 15px -5px rgba(0,0,0,0.1);
+    opacity: 0.99;
 }
+
+/* #team .socials a, #team .socials a:before, #team .socials .fa {
+    transition: all 0.35s;
+    transition-timing-function: cubic-bezier(0.31, -0.105, 0.43, 1.59);
+}
+
+#team .socials a.facebook:before {
+    background-color: #3b5998;
+}
+#team .socials a:before{
+content: '';
+width: 120%;
+height: 120%;
+position: absolute;
+transform: rotate(45deg);
+top: 90%;
+left: -110%;
+} */
