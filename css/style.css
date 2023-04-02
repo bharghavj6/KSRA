@@ -71,6 +71,12 @@ font-size: 20px;
 .section-padding {
     padding: 100px 0;
 }
+.fsection-padding {
+    padding: 100px 0 0;
+}
+.fsection-padding p {
+    margin-bottom: 0!important;
+}
 .services .card-body svg {
     font-size: 50px;
 }
