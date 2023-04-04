@@ -232,6 +232,9 @@ button.bg-rms {
 button.bg-rma{
     background: #71b8b4!important;
     }
+    .services{
+        overflow: hidden;
+    }
     
 /* #team .socials a, #team .socials a:before, #team .socials .fa {
     transition: all 0.35s;
