@@ -113,12 +113,13 @@ font-size: 20px;
     --bs-modal-padding: 0.5rem!important;
 }
 .modal-header{
-    background: #7eb8c7;
+    background: #3c6b76;
+    color: #cdcbf2;
     border-bottom: none!important;
 }
 .modal-footer{
-    background: #4c5a63!important;
-    border-top: #4c5a63!important;
+    background: #3c6b76!important;
+    border-top: #3c6b76!important;
 }
 .modal-body{
     background: url(../img/b1.jpg);
@@ -224,7 +225,14 @@ font-size: 20px;
     box-shadow: 0 5px 15px -5px rgba(0,0,0,0.1);
     opacity: 0.99;
 }
-
+button.bg-rms {
+    background: #6e386c!important;
+    color: #f1fbff!important;
+}
+button.bg-rma{
+    background: #71b8b4!important;
+    }
+    
 /* #team .socials a, #team .socials a:before, #team .socials .fa {
     transition: all 0.35s;
     transition-timing-function: cubic-bezier(0.31, -0.105, 0.43, 1.59);
@@ -242,6 +250,7 @@ transform: rotate(45deg);
 top: 90%;
 left: -110%;
 } */
+
 
 
 body::-webkit-scrollbar-track
