@@ -41,7 +41,7 @@ background: radial-gradient(circle,rgb(100 41 96) 0%, rgb(30 58 92) 100%)!import
 } */
 
 .body-ns .navbar-nav{
-    background: radial-gradient(circle,rgb(100 41 96) 0%, rgb(30 58 92) 100%);
+    background: radial-gradient(circle,rgb(100 41 96) 0%, rgb(30 58 92) 100%)!important;
     border-radius: 5px;
 }
 
@@ -242,6 +242,12 @@ button.bg-rma{
     border-image: -webkit-gradient(linear, right top, left top, color-stop(1%, rgba(180,210,255,0)), color-stop(50%, #c7d9f5), to(rgba(180,210,255,0))) 100% 0 100% 0/1px 0 1px 0 stretch;
     border-image: linear-gradient(to left, rgba(180,210,255,0) 1%, #c7d9f5 50%, rgba(180,210,255,0) 100%) 100% 0 100% 0/1px 0 1px 0 stretch;
     }
+@media (min-width: 768px){
+    .navbar-nav {
+        background: #342d53;
+        border-radius: 5px;
+    }
+}
     
 /* #team .socials a, #team .socials a:before, #team .socials .fa {
     transition: all 0.35s;
