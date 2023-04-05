@@ -66,6 +66,15 @@ font-size: 20px;
         width: 200px;
     }
 }
+@media (min-width:768px) and (max-width:898px){
+    .navbar-nav li a{
+        font-size: 15px!important;
+    }
+    .img-fluid{
+        width:260px!important;
+    }
+}
+
 .navbar-toggler{
     padding:2px 4px!important;
 }
