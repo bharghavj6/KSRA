@@ -2,8 +2,9 @@ body {
     background: #f1fbff!important;
 }
 .header-nav{
-    background: rgba(10,20,30,0.5);
+    background: rgb(107 117 126 / 50%);
 }
+
 @media (min-width:769px){
 .body-ns .header-nav{
 padding: 6px 0;
