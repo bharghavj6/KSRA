@@ -257,7 +257,9 @@ button.bg-rma{
         border-radius: 5px;
     }
 }
-    
+    .fa-house, .fa-print, .fa-people-group, .fa-address-book{
+        vertical-align: baseline;
+    }
 /* #team .socials a, #team .socials a:before, #team .socials .fa {
     transition: all 0.35s;
     transition-timing-function: cubic-bezier(0.31, -0.105, 0.43, 1.59);
