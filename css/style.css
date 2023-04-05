@@ -2,7 +2,7 @@ body {
     background: #f1fbff!important;
 }
 .header-nav{
-    background: rgb(107 117 126 / 50%);
+    background: rgb(0 15 29 / 80%);
 }
 
 @media (min-width:769px){
@@ -244,7 +244,7 @@ button.bg-rma{
     }
 @media (min-width: 768px){
     .navbar-nav {
-        background: #342d53;
+        background: #322e46;
         border-radius: 5px;
     }
 }
