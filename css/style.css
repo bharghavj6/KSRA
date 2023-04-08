@@ -132,9 +132,10 @@ font-size: 20px;
     border-top: #3c6b76!important;
 }
 .modal-body{
-    background: url(../img/b1.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
+    /* background: url(../img/modal-bg.jpg); */
+    background: radial-gradient(circle, rgb(53 0 24) 0%, rgb(2 7 47) 150%)
+    /* background-size: cover;
+    background-repeat: no-repeat; */
 }
 .modal-body li{
     color:#ffffff;
