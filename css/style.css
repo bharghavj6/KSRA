@@ -70,7 +70,7 @@ font-size: 20px;
     .navbar-nav li a{
         font-size: 15px!important;
     }
-    .img-fluid{
+    .header-nav .img-fluid{
         width:260px!important;
     }
 }
