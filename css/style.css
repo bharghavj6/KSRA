@@ -47,7 +47,7 @@ background: radial-gradient(circle,rgb(100 41 96) 0%, rgb(30 58 92) 100%)!import
 
 .navbar-nav li a{
 color: #ccc!important;
-font-size: 20px;
+font-size: 18px;
 }
 .navbar-toggler{
     background: #eaeced!important;
