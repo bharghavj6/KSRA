@@ -5,7 +5,7 @@ body {
     background: rgb(0 26 57 / 100%);
 }
 
-@media (min-width:769px){
+@media (min-width:768px){
 .body-ns .header-nav{
 padding: 6px 0;
 height: 65px;
@@ -17,6 +17,10 @@ transition: all 0.5s;
 z-index: 997;
 /* background: rgba(47,77,90,.85);    */
 background: radial-gradient(circle,rgb(100 41 96) 0%, rgb(0 26 57) 100%)!important;
+}
+.body-ns .navbar-nav{
+    background: radial-gradient(circle,rgb(100 41 96) 0%, rgb(0 26 57) 100%)!important;
+    border-radius: 5px;
 }
 }
 .body-ns .nav-content{
@@ -39,11 +43,6 @@ background: radial-gradient(circle,rgb(100 41 96) 0%, rgb(0 26 57) 100%)!importa
         border-radius: 5px;
     }
 } */
-
-.body-ns .navbar-nav{
-    background: radial-gradient(circle,rgb(100 41 96) 0%, rgb(0 26 57) 100%)!important;
-    border-radius: 5px;
-}
 
 .navbar-nav li a{
 color: #ccc!important;
