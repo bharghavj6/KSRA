@@ -259,15 +259,23 @@ button.bg-rma{
         border-radius: 5px;
     }
 }
-    .fa-house, .fa-print, .fa-address-book{
-        vertical-align: baseline;
-    }
-    .border-heading{
-        border-style: solid;
-        -o-border-image: -o-linear-gradient(right, rgba(180,210,255,0) 1%, #c7d9f5 50%, rgba(180,210,255,0) 100%) 100% 0 100% 0/1px 0 1px 0 stretch;
-        border-image: -webkit-gradient(linear, right top, left top, color-stop(1%, rgba(180,210,255,0)), color-stop(50%, #c7d9f5), to(rgba(180,210,255,0))) 100% 0 100% 0/1px 0 1px 0 stretch;
-        border-image: linear-gradient(to left, rgba(180,210,255,0) 1%, #c7d9f5 50%, rgba(180,210,255,0) 100%) 100% 0 100% 0/1px 0 1px 0 stretch;
-    }
+.fa-house, .fa-print, .fa-address-book{
+    vertical-align: baseline;
+}
+.border-heading{
+    border-style: solid;
+    -o-border-image: -o-linear-gradient(right, rgba(180,210,255,0) 1%, #c7d9f5 50%, rgba(180,210,255,0) 100%) 100% 0 100% 0/1px 0 1px 0 stretch;
+    border-image: -webkit-gradient(linear, right top, left top, color-stop(1%, rgba(180,210,255,0)), color-stop(50%, #c7d9f5), to(rgba(180,210,255,0))) 100% 0 100% 0/1px 0 1px 0 stretch;
+    border-image: linear-gradient(to left, rgba(180,210,255,0) 1%, #c7d9f5 50%, rgba(180,210,255,0) 100%) 100% 0 100% 0/1px 0 1px 0 stretch;
+}
+#about h2{
+    color:#209d96;
+}
+#services h2, #team h2{
+    color:#612960
+}
+
+
 /* #team .socials a, #team .socials a:before, #team .socials .fa {
     transition: all 0.35s;
     transition-timing-function: cubic-bezier(0.31, -0.105, 0.43, 1.59);
