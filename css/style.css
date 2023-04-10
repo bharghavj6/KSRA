@@ -274,7 +274,10 @@ button.bg-rma{
 #services h2, #team h2{
     color:#612960
 }
-
+.team .socials span{
+    vertical-align: text-bottom;
+    color: #51275c;
+}
 
 /* #team .socials a, #team .socials a:before, #team .socials .fa {
     transition: all 0.35s;
