@@ -78,7 +78,7 @@ font-size: 18px;
     padding:2px 4px!important;
 }
 .section-padding {
-    padding: 4rem 0;
+    padding: 4.5rem 0;
 }
 .fsection-padding {
     padding: 100px 0 0;
@@ -104,11 +104,10 @@ font-size: 18px;
     border-radius: 10px;
     border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
-#contact{
-    padding:10px 0 80px;
-    background: #3d325e;
-    color:#fff;
-}
+
+/* #contact button{
+    margin-top:5px;
+} */
 /* .footer-info{
     background: #565b86;
 } */
@@ -183,8 +182,16 @@ font-size: 18px;
 }
 .contact .map-hm-rht {
     box-shadow: 0 0 30px rgba(214, 215, 216, 0.6);
-    padding: 30px;
+    padding: 20px;
     background: #fff;
+}
+.contact-bg{
+    background: #51275c;
+    padding:1.5rem 1.5rem 1.5rem 0.7rem;
+    border-radius: 5px;
+}
+#contact .git-lbl{
+    color:#fff;
 }
 #footer .footer-top .footer-info p {
     font-size: 14px;

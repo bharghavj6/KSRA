@@ -20,8 +20,9 @@
         <script  src="css/fontawesome/js/regular.min.js"></script>
         <script  src="js/jquery-3.6.4.slim.min.js"></script>
         <script src="js/aos.js"></script>
-        <script  src="js/jscript.js"></script>
+        <script  src="js/jscript.js" defer></script>
         <script src="js/lottie-player.js"></script>
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
     
     </head>
     <!-- Google tag (gtag.js) -->
@@ -72,7 +73,7 @@
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#fotr">
+                <a class="nav-link" href="#contact">
                   <i class="fa-solid fa-address-book"></i>
                   <span data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show">Contact Us</span>
                 </a>
@@ -537,42 +538,64 @@
 
 
 <!-- contact us from -->
-<section style="display:none" id="contact" class="contact section-bg">
+<section  id="contact" class="contact section-bg section-padding">
   <div class="container">
-    <div class="section-title" data-aos="fade-in" data-aos-delay="100">
+    <div class="row">
+      <div class="col-md-12">
+          <div class="section-header text-center pb-5" data-aos="zoom-in-down" data-aos-duration="800">
+              <h2 class="border-heading">Contact Us</h2>
+              <!-- <h3>Our team is what really makes us tick. They are dedicated with extensive knowledge and experience. Meet our team:</h3> -->
+          </div>
+      </div>
+  </div>
+  <div class="contact-bg">
+    <div class="section-title git-lbl" data-aos="fade-in" data-aos-delay="100">
       <h2>Get In <span>Touch</span></h2>
     </div>
+   
     <div class="row" data-aos="fade-up" data-aos-delay="200">
       <div class="col-lg-6 col-md-6">
-      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d237.87895799795558!2d78.38556111468046!3d17.456682800000014!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb91e044084f7d%3A0xf5f897533c82bd9b!2sAnurag%20Towers!5e0!3m2!1sen!2sin!4v1680191810103!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d237.87895799795558!2d78.38556111468046!3d17.456682800000014!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb91e044084f7d%3A0xf5f897533c82bd9b!2sAnurag%20Towers!5e0!3m2!1sen!2sin!4v1680191810103!5m2!1sen!2sin" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
       </div>
+    <!-- contact form start -->
       <div class="col-lg-6 col-md-6 map-hm-rht">
-        <div class="col-md-6 ">
-          <label for="txt_name" class="lbl">&nbsp;</label>
-          <input class="form-control" type="text" placeholder="Your Name">
-        </div>
-        <div class="col-md-6">
-          <label for="txt_mobile" class="lbl">&nbsp;</label>
-          <input maxlength="10" class="form-control"  type="text" placeholder="Your Number">
-        </div>
-        <div class="col-md-12">
-          <label for="txt_emailaddress" class="lbl">&nbsp;</label>
-          <input class="form-control" type="email" placeholder="Your Email ID">
-        </div>
-        <div class="col-md-12">
-          <label for="txt_city" class="lbl">&nbsp;</label>
-          <input maxlength="250" class="form-control" type="text" placeholder="City">
-        </div>
-        <div class="col-md-12">
-          <label for="txt_Query" class="lbl">&nbsp;</label>
-          <textarea rows="5" cols="20"  class="form-control" placeholder="Type Your Message.."></textarea>
-        </div>
-        <div class="col-md-12 text-center"><br>
-          <button class="btn btn-warning btn-lg btn-block mt-3" type="button">Send Now</button>
-          </div>
-        <br>
+          <form id="myForm" reset(); class="needs-validation" novalidate>
+            <!-- name -->
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input type="name" name="name" class="form-control" id="name" placeholder="enter your name" required/>
+              <!-- <div class="invalid-feedback">
+                Name is required!
+              </div> -->
+            </div>
+
+            <!-- email -->
+            <div class="form-group">
+              <label for="email">Email address</label>
+              <input type="email" name="email" class="form-control" id="email" placeholder="enter your email" required/>
+              <!-- <div class="invalid-feedback">
+                Invalid email!
+              </div> -->
+            </div>
+
+            <!-- subject -->
+            <!-- <div class="form-group">
+              <label for="subject">Subject</label>
+              <input type="text" name="subject" class="form-control" id="subject" placeholder="enter email subject" required/>
+            </div> -->
+
+            <!-- message -->
+            <div class="form-group mb-2">
+              <label for="message">Message</label>
+              <textarea class="form-control" id="message" name="message" rows="5" required></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
       </div>
+   <!-- contact form end -->
     </div>
+  </div>
      
   </div>
   </div>
@@ -639,9 +662,5 @@
 </div>
 <!-- End Footer -->
 
-<!-- Initialize AOS -->
-    <script>
-      AOS.init();
-    </script>
     </body>
 </html>
