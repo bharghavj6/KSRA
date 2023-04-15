@@ -58,7 +58,7 @@ AOS.init();
             iziToast.show({
               icon: "fa-envelope",
               position: "topCenter",
-              theme: "light",
+              theme: "dark",
               message: "Mail Sent Successfully",
               timeout: 2000,
               onClosed: function () {
