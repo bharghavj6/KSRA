@@ -55,11 +55,16 @@ AOS.init();
           (response) => {
             // console.log("SUCCESS!", response.status, response.text);
             //alert("SUCCESS!");
+            //izitoast alert
             iziToast.show({
               //icon: "fa-envelope",
               position: "topCenter",
+              iconUrl: "img/mail.png",
               theme: "dark",
               message: "Mail Sent Successfully",
+              messageSize: "20",
+              closeOnClick: true,
+              progressBarColor: "#fff",
               timeout: 2000,
               onClosed: function () {
                 window.location.reload();
