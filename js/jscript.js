@@ -5,9 +5,10 @@ jQuery(window).scroll(function () {
   else sticky.removeClass("body-ns");
 });
 //window.location.reload(true);
-window.location.href = "#";
+
 // For adding padding to carousal section related to header height
 $(document).ready(function ($) {
+  window.location.href = "#";
   // When the window resizes
   $(window).on("resize scroll", function () {
     // Get the height + padding + border of `#masthead`
@@ -52,10 +53,21 @@ AOS.init();
         // send the email here
         emailjs.sendForm(serviceID, templateID, this).then(
           (response) => {
-            console.log("SUCCESS!", response.status, response.text);
-            alert("SUCCESS!");
-            document.getElementById("myForm").reset();
-            window.location.reload();
+            // console.log("SUCCESS!", response.status, response.text);
+            //alert("SUCCESS!");
+            iziToast.show({
+              icon: "fa-envelope",
+              position: "topCenter",
+              theme: "light",
+              message: "Mail Sent Successfully",
+              timeout: 2000,
+              onClosed: function () {
+                window.location.reload();
+              },
+            });
+            //document.getElementById("myForm").reset();
+
+            //window.location.reload();
             //window.location.href = "#";
           },
           (error) => {
