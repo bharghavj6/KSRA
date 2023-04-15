@@ -56,7 +56,7 @@ AOS.init();
             // console.log("SUCCESS!", response.status, response.text);
             //alert("SUCCESS!");
             iziToast.show({
-              icon: "fa-envelope",
+              //icon: "fa-envelope",
               position: "topCenter",
               theme: "dark",
               message: "Mail Sent Successfully",
