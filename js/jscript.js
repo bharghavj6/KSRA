@@ -47,8 +47,10 @@ AOS.init();
         event.preventDefault();
         initiate();
         //console.log("valid");
-        const serviceID = "service_ou527t8";
-        const templateID = "template_u1rdv2a";
+        const serviceID = "service_ht0hptf"; //ksra
+        //const serviceID = "service_ou527t8"; //dguru
+        const templateID = "template_0rs9poo"; //ksra
+        //const templateID = "template_u1rdv2a"; //dguru
 
         // send the email here
         emailjs.sendForm(serviceID, templateID, this).then(
@@ -77,7 +79,22 @@ AOS.init();
           },
           (error) => {
             console.log("FAILED...", error);
-            alert("FAILED...", error);
+            //alert("FAILED...", error);
+            iziToast.show({
+              //icon: "fa-envelope",
+              position: "topCenter",
+              iconUrl: "img/mail.png",
+              theme: "dark",
+              message: "Mail Not Sent",
+              messageColor: "#f00202",
+              messageSize: "20",
+              closeOnClick: true,
+              progressBarColor: "#fff",
+              timeout: 2000,
+              onClosed: function () {
+                //window.location.reload();
+              },
+            });
           }
         );
       }
@@ -89,7 +106,7 @@ AOS.init();
 //email service start
 function initiate() {
   // https://dashboard.emailjs.com/admin/account
-  emailjs.init("GLWMYwz_kvwA8D6hG");
+  emailjs.init("Dl4EHRH13qma6h6Ms");
   //emailjs.init("");
 }
 
