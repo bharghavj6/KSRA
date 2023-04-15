@@ -182,12 +182,12 @@ font-size: 18px;
 }
 .contact .map-hm-rht {
     box-shadow: 0 0 30px rgba(214, 215, 216, 0.6);
-    padding: 20px;
+    padding: 10px;
     background: #fff;
 }
 .contact-bg{
     background: #51275c;
-    padding:1.5rem 1.5rem 1.5rem 0.7rem;
+    padding:1.5rem;
     border-radius: 5px;
 }
 #contact .git-lbl{
@@ -284,6 +284,14 @@ button.bg-rma{
     vertical-align: text-bottom;
     color: #51275c;
 }
+.cf-section{
+    background: #fff;
+}
+/* @media (max-width: 767px) {
+    .pr-0 {
+        padding-right:0!important;
+    }
+} */
 
 /* #team .socials a, #team .socials a:before, #team .socials .fa {
     transition: all 0.35s;

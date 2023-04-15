@@ -5,7 +5,7 @@ jQuery(window).scroll(function () {
   else sticky.removeClass("body-ns");
 });
 //window.location.reload(true);
-window.location.href = "#about";
+window.location.href = "#";
 // For adding padding to carousal section related to header height
 $(document).ready(function ($) {
   // When the window resizes
@@ -55,8 +55,8 @@ AOS.init();
             console.log("SUCCESS!", response.status, response.text);
             alert("SUCCESS!");
             document.getElementById("myForm").reset();
-            //window.location.reload(true);
-            window.location.href = "#about";
+            window.location.reload();
+            //window.location.href = "#";
           },
           (error) => {
             console.log("FAILED...", error);
