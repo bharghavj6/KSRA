@@ -257,7 +257,6 @@
           </div>
         </div>
       </section>
-
       <!-- Our clients section ends -->
 
 
@@ -563,18 +562,18 @@
         <div class="form-group">
           <label for="name">Name</label>
           <input type="name" name="from_name" class="form-control" id="from_name" placeholder="enter your name" required/>
-          <!-- <div class="invalid-feedback">
+          <div class="invalid-feedback">
             Name is required!
-          </div> -->
+          </div>
         </div>
 
         <!-- email -->
         <div class="form-group">
           <label for="email">Email address</label>
           <input type="email" name="email" class="form-control" id="email" placeholder="enter your email" required/>
-          <!-- <div class="invalid-feedback">
-            Invalid email!
-          </div> -->
+          <div class="invalid-feedback">
+            Email is required!
+          </div>
         </div>
 
         <!-- subject -->
@@ -587,6 +586,9 @@
         <div class="form-group mb-2">
           <label for="message">Message</label>
           <textarea class="form-control" id="message" name="message" rows="5" required></textarea>
+          <div class="invalid-feedback">
+            Message is required!
+          </div>
         </div>
 
         <button type="submit" class="btn btn-primary">Submit</button>
