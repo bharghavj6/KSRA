@@ -335,7 +335,7 @@ body::-webkit-scrollbar-thumb
 }
 
 /* nav scroll show/hide */
-@media (max-width:767px){
+@media (width<768px){
 
 .scrolled-down{
     transform:translateY(-100%); transition: all 0.3s ease-in-out;
