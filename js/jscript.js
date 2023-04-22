@@ -1,9 +1,9 @@
-jQuery(window).scroll(function () {
-  var sticky = jQuery("body"),
-    scroll = jQuery(window).scrollTop();
-  if (scroll > 5) sticky.addClass("body-ns");
-  else sticky.removeClass("body-ns");
-});
+// jQuery(window).scroll(function () {
+//   var sticky = jQuery("body"),
+//     scroll = jQuery(window).scrollTop();
+//   if (scroll > 5) sticky.addClass("body-ns");
+//   else sticky.removeClass("body-ns");
+// });
 //window.location.reload(true);
 
 // For adding padding to carousal section related to header height
