@@ -459,8 +459,13 @@ left: -110%;
     padding-bottom: 100px;
     }
 }
-
-
+ lottie-player{
+    background:transparent;
+    height: 300px;
+ }
+.map-hm-rht iframe{
+    border:0;
+}
 
 body::-webkit-scrollbar-track
 {
