@@ -453,7 +453,7 @@ left: -110%;
 
 .parallax-one {padding-top: 200px; padding-bottom: 200px; overflow: hidden; 
     position: relative; width: 100%;
-     background-image: url(../img/cabackgroundbg.jpg); background-attachment: fixed; background-size: cover; -moz-background-size: cover; 
+     background-image: url(../img/carousal1.jpg); background-attachment: fixed; background-size: cover; -moz-background-size: cover; 
     -webkit-background-size: cover; background-repeat: no-repeat; background-position: top center;
 }
 @media (max-width:767px){
