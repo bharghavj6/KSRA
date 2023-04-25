@@ -94,6 +94,9 @@ font-size: 18px;
 .fsection-padding p {
     margin-bottom: 0!important;
 }
+#about p{
+    text-align: justify;
+}
 .services .card-body svg {
     font-size: 50px;
 }
