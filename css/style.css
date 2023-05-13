@@ -94,8 +94,15 @@ font-size: 18px;
 .fsection-padding p {
     margin-bottom: 0!important;
 }
+@media (width>481px){
+    #about p{
+        text-align: justify;
+    }
+    }
+@media (width<481px){
 #about p{
-    text-align: justify;
+    text-align: center;
+}
 }
 .services .card-body svg {
     font-size: 50px;
@@ -426,6 +433,26 @@ color: #fff;
 text-transform: uppercase;
 opacity: 0.9;
 } 
+@media (width<=767px){
+    #footer .footer-links h4{
+        text-align: center;
+    }
+    #footer .footer-links ul{
+        width:30%;
+        margin:auto!important;
+    }
+    #footer .border-headingfl{
+        border-style: solid;
+        -o-border-image: -o-linear-gradient(right, rgba(180,210,255,0) 1%, #c7d9f5 50%, rgba(180,210,255,0) 100%) 100% 0 100% 0/1px 0 1px 0 stretch;
+        border-image: -webkit-gradient(linear, right top, left top, color-stop(1%, rgba(180,210,255,0)), color-stop(50%, #c7d9f5), to(rgba(180,210,255,0))) 100% 0 100% 0/1px 0 1px 0 stretch;
+        border-image: linear-gradient(to left, rgba(180,210,255,0) 1%, #c7d9f5 50%, rgba(180,210,255,0) 100%) 100% 0 100% 0/1px 0 1px 0 stretch;
+    }
+}
+@media (width>420px){
+    #footer .footer-links ul li{
+        white-space: nowrap;
+    }
+}
 /* @media (max-width: 767px) {
     .pr-0 {
         padding-right:0!important;
