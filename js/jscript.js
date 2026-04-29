@@ -8,7 +8,7 @@
 
 // For adding padding to carousal section related to header height
 $(document).ready(function ($) {
-  window.location.href = "#";
+  // window.location.href = "#";
   // When the window resizes
   $(window).on("resize scroll", function () {
     // Get the height + padding + border of `#masthead`
@@ -134,7 +134,7 @@ function initiate() {
 //navbar show/hide
 
 document.addEventListener("DOMContentLoaded", function () {
-  el_autohide = document.querySelector(".autohide");
+const el_autohide = document.querySelector(".autohide");
 
   // add padding-top to bady (if necessary)
   //navbar_height = document.querySelector(".navbar").offsetHeight;
