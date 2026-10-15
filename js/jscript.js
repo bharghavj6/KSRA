@@ -134,7 +134,7 @@ function initiate() {
 //navbar show/hide
 
 document.addEventListener("DOMContentLoaded", function () {
-const el_autohide = document.querySelector(".autohide");
+  const el_autohide = document.querySelector(".autohide");
 
   // add padding-top to bady (if necessary)
   //navbar_height = document.querySelector(".navbar").offsetHeight;
